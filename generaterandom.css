@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+h3,h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height:10px;
+    
+}
+.color{
+    align-items: center;
+    display:flex;
+    justify-content: center; 
+     position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+        width: 500px;
+        height: 250px;
+        /* margin:auto; */
+    border:1px solid black;
+}
